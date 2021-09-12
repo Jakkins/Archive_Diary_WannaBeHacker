@@ -1,0 +1,9 @@
+git reset --hard WILL DELETE YOUR WORKING DIRECTORY CHANGES
+
+
+git remote add origin https://<access-token-name>:<access-token>@gitlab.com/myuser/myrepo.git
+git remote add origin https://all_repo:ghp_key@github.com/Jakkins/work_in_progress.git
+
+
+git remote set-url <stream> https://<token>@github.com/<username>/<repo>
+git remote set-url origin https://ghp_key@github.com/Jakkins/Archive_Diary_WannaBeHacker.git

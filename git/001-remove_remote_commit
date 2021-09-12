@@ -1,0 +1,9 @@
+
+0. go to branch
+1. change HEAD
+2. push HEAD
+
+git checkout branch_name
+git reset --hard 54680f48
+git push origin HEAD:branch_name --force
+

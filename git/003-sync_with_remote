@@ -1,0 +1,6 @@
+
+
+
+===== sync the local repository with the remote, delete every change in local
+git reset --hard origin/<branch>
+

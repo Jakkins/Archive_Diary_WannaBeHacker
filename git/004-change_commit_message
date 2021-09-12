@@ -1,0 +1,10 @@
+
+https://linuxize.com/post/change-git-commit-message/
+
+===== Changing the Most Recent Commit
+git checkout branch_name
+git commit --amend -m "message"
+git push --force origin branch_name
+
+
+

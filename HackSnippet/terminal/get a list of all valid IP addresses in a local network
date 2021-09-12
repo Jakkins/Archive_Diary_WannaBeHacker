@@ -1,0 +1,13 @@
+##############################
+## MANUAL
+1. get your broadcast IP address
+2. Ping your broadcast IP address ping 192.168.1.255 (may require -b on Linux)
+3. Now type arp -a
+	You will get the list of all IP addresses on your segment.
+
+##############################
+## nmap
+	$ nmap -sP 192.168.1.*
+or more commonly
+	$ nmap -sn 192.168.1.0/24
+
